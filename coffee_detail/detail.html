@@ -32,72 +32,80 @@
           <li>화이트 초콜릿 모카</li>
         </ol>
       </nav>
-      <img src="../coffee.png" />
       <div class="container">
-        <div class="productName">
-          <span>화이트 초콜릿 모카</span><span>White Chocolate Mocha</span>
-          <i class="far fa-light fa-heart"></i>
+        <img src="../coffee.png" />
+        <div class="productDetail">
+          <div class="productName">
+            <span id="koName">화이트 초콜릿 모카</span
+            ><span id="enName">White Chocolate Mocha</span>
+            <i class="far fa-light fa-heart"></i>
+          </div>
+          <div class="productDescription">
+            달콤하고 부드러운 화이트 초콜릿 시럽과 에스프레소를 스팀 밀크와 섞어
+            휘핑크림으로 마무리한 음료로 달콤함과 강렬한 에스프로소가 부드럽게
+            어우러진 커피
+          </div>
+          <div class="energyTitle">
+            <span>제품 영양 정보</span><span>Tall(톨) / 355ml (12 fl oz)</span>
+          </div>
+          <section id="energySection">
+            <div id="right">
+              <div id="kcalBox">
+                <span>1회 지공량 (kcal)</span>
+                <span id="kcal">345</span>
+              </div>
+              <div id="fatBox">
+                <span>포화지방 (g)</span>
+                <span id="fat">11</span>
+              </div>
+              <div id="proteinBox">
+                <span>단백질 (g)</span>
+                <span id="protein">11</span>
+              </div>
+            </div>
+            <div id="left">
+              <div id="naBox">
+                <span>나트륨 (mg)</span>
+                <span id="na">150</span>
+              </div>
+              <div id="sugarBox">
+                <span>당류 (g)</span>
+                <span id="sugar">35</span>
+              </div>
+              <div id="caffeineBox">
+                <span>카페인 (mg)</span>
+                <span id="caffeine">75</span>
+              </div>
+            </div>
+          </section>
+          <div class="allergyBox">
+            알레르기 유발 요인 :
+            <span id="allergy">우유</span>
+          </div>
+          <div class="commentHead">리뷰</div>
+          <section class="commentSection">
+            <div id="1">
+              <span class="nickname">coffee_lover</span>
+              <span class="comment">너무 맛있어요!</span>
+            </div>
+            <div id="2">
+              <span class="nickname">CHOCO7</span>
+              <span class="comment"
+                >오늘도 화이트 초콜릿 모카를 마시러 갑니다.</span
+              >
+            </div>
+            <div id="3">
+              <span class="nickname">legend_dev</span>
+              <span class="comment"
+                >진짜 화이트 초콜릿 모카는 전설이다.진짜 화이트 초콜릿 모카는
+                전설이다.진짜 하이트 초...</span
+              >
+            </div>
+            <form action="POST" id="commentForm">
+              <input placeholder="리뷰를 입력해주세요" name="comment" />
+            </form>
+          </section>
         </div>
-        <div class="energyTitle">
-          <span>제품 영양 정보</span><span>Tall(톨) / 355ml (12 fl oz)</span>
-        </div>
-        <section id="energySection">
-          <div id="rigth">
-            <div id="kcalBox">
-              <span>1회 지공량 (kcal)</span>
-              <span id="kcal">345</span>
-            </div>
-            <div id="fatBox">
-              <span>포화지방 (g)</span>
-              <span id="fat">11</span>
-            </div>
-            <div id="proteinBox">
-              <span>단백질 (g)</span>
-              <span id="protein"></span>
-            </div>
-          </div>
-          <div id="left">
-            <div id="naBox">
-              <span>나트륨 (mg)</span>
-              <span id="na">150</span>
-            </div>
-            <div id="sugarBox">
-              <span>당류 (g)</span>
-              <span id="sugar">35</span>
-            </div>
-            <div id="caffeineBox">
-              <span>카페인 (mg)</span>
-              <span id="caffeine">75</span>
-            </div>
-          </div>
-        </section>
-        <div class="allergyBox">
-          알레르기 유발 요인 :
-          <span id="allergy">우유</span>
-        </div>
-        <div class="commentHead">리뷰</div>
-        <section id="commentSection">
-          <div id="1">
-            <span class="nickname">coffee_lover</span>
-            <span class="comment">너무 맛있어요!</span>
-          </div>
-          <div id="2">
-            <span class="nickname">CHOCO7</span>
-            <span class="comment"
-              >오늘도 화이트 초콜릿 모카를 마시러 갑니다.</span
-            >
-          </div>
-          <div id="3">
-            <span class="nickname">legend_dev</span>
-            <span class="comment"
-              >진짜 화이트 초콜릿 모카는 전설이다.진짜 화이트 초콜릿 모카는
-              전설이다.진짜 ㅗ하이트 초...</span
-            >
-          </div>
-          <form action="POST" id="commentForm">
-            <input placeholder="리뷰를 입력해주세요" name="comment" />
-          </form>
-        </section>
       </div>
     </div>
     <footer>
