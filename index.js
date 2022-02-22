@@ -17,5 +17,6 @@ const checkValue = (e) =>{
         loginBtn.style.opacity = 0.3;
     }
 }
+
 loginId.addEventListener("input", checkValue);
 loginPasswrod.addEventListener("input",checkValue)

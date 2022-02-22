@@ -1,0 +1,52 @@
+.bigContainer {
+  width: 90vw;
+  margin: auto;
+}
+.navigator {
+  background-color: silver;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigator span {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  padding-left: 10px;
+}
+.nav_lists {
+  display: flex;
+  padding-right: 10px;
+}
+.nav_lists li {
+  list-style-type: none;
+  margin-right: 25px;
+  color: rgb(102, 102, 102);
+}
+.productCategory {
+  display: block;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.miniNav ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  color: silver;
+}
+.miniNav li {
+  list-style: none;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+footer li {
+  padding-top: 5px;
+  list-style: none;
+}

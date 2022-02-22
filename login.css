@@ -23,13 +23,13 @@ span {
   background-color: blue;
   opacity: 0.3;
   color: white;
-  width: 250px;
+  width: 280px;
   height: 30px;
   border-radius: 8px;
 }
 .login_form input {
   display: flex;
   width: 250px;
-  height: 30px;
+  padding: 10px;
   margin-bottom: 15px;
 }
