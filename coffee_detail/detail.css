@@ -64,12 +64,15 @@ img {
 .productName #enName {
   opacity: 0.7;
 }
-.productName i {
+.heartIcon {
   position: absolute;
   right: 10px;
   opacity: 0.7;
   font-size: 25px;
+  border: none;
+  background-color: white;
 }
+
 .productDescription {
   border-bottom: 2px solid silver;
   padding: 20px 0;
@@ -120,8 +123,10 @@ img {
 .commentSection {
   padding: 20px 0;
 }
-.commentSection div {
+.commentSection li {
   padding-bottom: 5px;
+  list-style: none;
+  margin-left: -40px;
 }
 .commentSection .nickname {
   font-weight: 900;
