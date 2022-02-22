@@ -51,3 +51,8 @@ body {
   width: 150px;
   height: 140px;
 }
+.coldbrewSection div img:hover,
+.brewedSection div img:hover {
+  width: 200px;
+  height: 200px;
+}
